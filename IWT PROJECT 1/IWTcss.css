@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mid { 
+    position: absolute;
+justify-content: center;
+  align-items: center;
+  display: block;
+  width: 20%;
+  height: 10%;
+  margin: 4px auto;
+}
+
+.companyname{
+    justify-content: center;
+    /* align-items: */
+
+    left: 5%;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    display: flex;
+}
+
+.navbar {
+left: 80%;
+  width: 38%;
+  display: block;
+  height: 10%;
+  margin: 4px auto;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+  background-color: orange;
+}
+
+.navbar ul li a {
+  display: block;
+  color: rgb(113, 34, 34);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Trirong", serif;
+  }
