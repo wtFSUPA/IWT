@@ -1,7 +1,24 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
 body{
     margin: 0px;
     padding: 0px;
+
 }
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  body::-webkit-scrollbar-track {
+    background: #555;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: lightblue;
+  }
 
 
 .mid { 
@@ -56,7 +73,30 @@ left: 80%;
   background-color: white;
 }
 
-table, th, td {
-    border: 1px solid black;
+th, td {
+    border: 1px solid rgb(149, 69, 19);
     font-family: "Trirong", serif;
   }
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventtable{
+text-align: center;
+font-family: 'Indie Flower', cursive;
+}
+
+.form{
+    margin: 2px;
+    padding: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    padding: 20px;
+}
+
